@@ -16,7 +16,7 @@ We hope MMGL as a flexible baseline could help you to explore more powerful vari
 ## Run from
 preset version:
 ```bash
-python main.py
+./XX.sh
 ```
 or modifying the network parameters and run
 ```bash
