@@ -16,18 +16,13 @@ For more details about MMGL, please refer to our paper [[TMI](https://ieeexplore
 * scipy
 * munkres
 
-## Run from
-preset version:
-```bash
-./MMGL/{dataset}.sh
-```
-or modifying the network parameters and run
-```bash
-python ./MMGL/run.py --hidden3 xxx --hidden2 xxx --learning_rate xxx ...
-```
+## Code running
+
+Please refer to  [[./MMGL/README.md](https://github.com/SsGood/MMGL/blob/main/MMGL/README.md)]
 
 ## Data
 
 If you want to use your own data, you have to provide 
 * a csv.file which contains multi-modal features, and
 * a multi-modal feature dict.
+
