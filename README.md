@@ -19,11 +19,11 @@ For more details about MMGL, please refer to our paper [[TMI](https://ieeexplore
 ## Run from
 preset version:
 ```bash
-./XX.sh
+./MMGL/{dataset}.sh
 ```
 or modifying the network parameters and run
 ```bash
-python run.py --hidden3 xxx --hidden2 xxx --learning_rate xxx ...
+python ./MMGL/run.py --hidden3 xxx --hidden2 xxx --learning_rate xxx ...
 ```
 
 ## Data
