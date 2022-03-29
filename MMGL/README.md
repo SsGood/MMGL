@@ -2,7 +2,12 @@
 Running the code of data preprocessing in ./data/{dataset}/xxx.ipynb to preprocess the raw data to standard data as the input of MMGL.
 
 ## Step 2: Training and test
-Running ./{dataset}-simple-2-concat-weighted-cosine.sh
+
+Running 
+```
+./{dataset}-simple-2-concat-weighted-cosine.sh
+```
+
 Notice: the sh file is used to reproduce the result reported in our paper, you could also run this script to train and test your own dataset:
 ```
 python main.py
