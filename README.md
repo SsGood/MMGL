@@ -18,7 +18,7 @@ For more details about MMGL, please refer to our paper [[TMI](https://ieeexplore
 
 ## Code running
 
-Please refer to  [[./MMGL/README.md](https://github.com/SsGood/MMGL/blob/main/MMGL/README.md)]
+Please refer to  [[./MMGL_transductive/README.md](https://github.com/SsGood/MMGL/blob/main/MMGL_transductive/README.md)]
 
 ## Data
 
