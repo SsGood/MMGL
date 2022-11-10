@@ -21,6 +21,7 @@ For more details about MMGL, please refer to our paper [[TMI](https://ieeexplore
 Please refer to  [[./MMGL_transductive/README.md](https://github.com/SsGood/MMGL/blob/main/MMGL_transductive/README.md)]
 
 ## Data
+The data preprocessing process are provided in [[./data/{dataset}](https://github.com/SsGood/MMGL/blob/main/data/)]
 
 If you want to use your own data, you have to provide 
 * a csv.file which contains multi-modal features, and
