@@ -1,6 +1,7 @@
 # Multi-modal Graph learning for Disease Prediction (MMGL)
 
 This is a PyTorch transductive version of MMGL model as proposed in our paper, the inductive version will be coming soon.
+
 **Updata**: The inductive version of MMGL has been released!
 
 ## Introduction
