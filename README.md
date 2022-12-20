@@ -29,3 +29,15 @@ If you want to use your own data, you have to provide
 * a csv.file which contains multi-modal features, and
 * a multi-modal feature dict.
 
+If you find our work useful, please consider citing： 
+```
+@ARTICLE{MMGL,
+  author={Zheng, Shuai and Zhu, Zhenfeng and Liu, Zhizhe and Guo, Zhenyu and Liu, Yang and Yang, Yuchen and Zhao, Yao},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Multi-Modal Graph Learning for Disease Prediction}, 
+  year={2022},
+  volume={41},
+  number={9},
+  pages={2207-2216},
+  doi={10.1109/TMI.2022.3159264}}
+```
