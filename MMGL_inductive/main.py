@@ -158,7 +158,7 @@ def main(args_str=None):
                         help='Insist on using CPU instead of CUDA.')
     parser.add_argument('--nepoch', type=int, default=1000,
                         help='Max number of epochs to train.')
-    parser.add_argument('--early', type=int, default=50,
+    parser.add_argument('--early', type=int, default=150,
                         help='Extra iterations before early-stopping.')
     parser.add_argument('--lr', type=float, default=1e-3,
                         help='Initial learning rate.')
