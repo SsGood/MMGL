@@ -102,7 +102,7 @@ def train_and_eval(datadir, datname, hyperpm):
     print('Modal dims ', input_data_dims)
     input_data = data[:,:-1]
     label = data[:,-1]-1
-    skf = StratifiedKFold(n_splits=10, random_state=0, shuffle=True)
+    skf = StratifiedKFold(n_splits=10, random_state=hyperpm.seed, shuffle=True)
     set_rng_seed(hyperpm.seed)
     val_acc, tst_acc, tst_auc = [], [], []
     shared_acc_list, shared_auc_list = [], []
