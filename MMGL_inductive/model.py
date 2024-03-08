@@ -10,7 +10,7 @@ import torch.autograd
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset
 from collections import Counter
 from sklearn.metrics import roc_auc_score
 import matplotlib.cm
@@ -71,9 +71,9 @@ class EvalHelper:
         self.val_dataset = disease_dataset(feat, label, self.val_idx)
         self.tst_dataset = disease_dataset(feat, label, self.tst_idx)
         
-        self.trn_loader = DataLoader(self.trn_dataset, batch_size = 256, shuffle=True)
-        self.val_loader = DataLoader(self.val_dataset, batch_size = 256, shuffle=False)
-        self.tst_loader = DataLoader(self.tst_dataset, batch_size = 256, shuffle=False)
+        self.trn_loader = torch.utils.data.DataLoader(self.trn_dataset, batch_size = 256, shuffle=True)
+        self.val_loader = torch.utils.data.DataLoader(self.val_dataset, batch_size = 256, shuffle=False)
+        self.tst_loader = torch.utils.data.DataLoader(self.tst_dataset, batch_size = 256, shuffle=False)
         
         trn_label = label[self.trn_idx]
         
